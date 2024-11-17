@@ -1,0 +1,141 @@
+.card-title{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+        }
+ .card-text{
+          font-size: 13px;
+        }
+.custom-card{
+  width: 320px;
+  margin: 0 auto;
+  transition: transform 0.2s;
+}
+.custom-card:hover{
+  transform: scale(1.05);
+}
+
+.column{
+  width: 340px;
+}
+ .menu-cont{
+    font-size: 10px;
+ }
+ .head {
+    margin: 0;
+    padding: 0;
+  }
+#carousel{
+    margin-top:1px;
+}
+.third-foot{
+    border-top: 0.1px solid rgb(210, 204, 204);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-class{
+    margin-top: 30px;
+}
+.footer-section{
+    border-top: 0.1px solid rgb(210, 204, 204);
+    border-bottom: 0.1px solid rgb(210, 204, 204);
+    width: 90%; /* Controls the width of the border */
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.footer-heading{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.help-list{
+    gap: 10px;
+    font-size: 10px;
+}
+.help-list ul{
+    list-style-type: none;
+}
+.first-section{
+    font-size: 10px;
+    padding-left: 80px;
+    
+}
+.help{
+    padding-left: 100px;
+}
+
+.subscribe{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 8px 15px 10px 15px;
+    vertical-align: top;
+}
+.email{
+    font-size: 10px;
+    padding: 8px 15px 8px 15px;
+    width: 200px;
+}
+.connect{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.newsletter{
+    padding-left: 50px;
+}
+.image{
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 0px;
+}
+.first-section, .second-section, .third-section {
+    border-right: 1px solid rgb(210, 204, 204) ;
+}
+.concerns{
+    border-right: 1px solid rgb(210, 204, 204) ; 
+    height: 100px;
+    padding-left: 50px;
+}
+.payment{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.scnd-foot{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.badge{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 760px) {
+   .footer-heading {
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+   .first-section{
+    padding-left: 20px;
+   }
+.help{
+    padding-left: 0px;
+    margin-right: 0px;
+}
+   .third-section{
+    padding-right: 40px;
+   }
+   .connect{
+    padding-right: 30px;
+   }
+   .image{
+    padding-right: 50px;
+   }
+   .help-list{
+    padding-left: 40px;
+   }
+  }
